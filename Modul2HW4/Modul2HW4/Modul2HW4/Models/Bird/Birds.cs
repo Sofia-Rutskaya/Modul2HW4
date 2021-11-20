@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Modul2HW4.Models.Animal_s_Specific;
 
-namespace Modul2HW4.Models
+namespace Modul2HW4.Models.Bird
 {
     public abstract class Birds : ChordatesAnimals
     {

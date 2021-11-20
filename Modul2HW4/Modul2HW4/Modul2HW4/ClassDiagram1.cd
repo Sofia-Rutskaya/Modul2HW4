@@ -1,0 +1,137 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Modul2HW4.Models.ChordatesAnimals" Collapsed="true">
+    <Position X="10.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAABAAIAAAAAAAAQAACAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\ChordatesAnimals.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Modul2HW4.Models.Bird.Birds" Collapsed="true">
+    <Position X="6.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAgAAAAAA=</HashCode>
+      <FileName>Models\Bird\Birds.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Modul2HW4.Models.Bird.Bucerotiformes">
+    <Position X="7.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAABAAIAAIAAAAAQAAAAAAgAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Bird\Bucerotiformes.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Modul2HW4.Models.Bird.Ciconiiformes">
+    <Position X="9.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAhAAIAAIAAAAARAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Bird\Ciconiiformes.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Modul2HW4.Models.Bird.Keelless" Collapsed="true">
+    <Position X="4" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAIAAAQAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Bird\Keelless.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Modul2HW4.Models.Bird.Neognathae" Collapsed="true">
+    <Position X="8.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAA=</HashCode>
+      <FileName>Models\Bird\Neognathae.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Modul2HW4.Models.Bird.Ostriches">
+    <Position X="3" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAEBAAIAAIAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Bird\Ostriches.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Modul2HW4.Models.Bird.Tinamu">
+    <Position X="5.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAABBAIAAIAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Bird\Tinamu.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Modul2HW4.Models.Mammal.Artiodactyls" Collapsed="true">
+    <Position X="13" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAAAAAAAAAAQAAAAAAABAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Mammal\Artiodactyls.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Modul2HW4.Models.Mammal.Deer">
+    <Position X="14.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAAABAAIAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Mammal\Deer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Modul2HW4.Models.Mammal.Felidae" Collapsed="true">
+    <Position X="17.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Mammal\Felidae.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Modul2HW4.Models.Mammal.Giraffe">
+    <Position X="12" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAAABAAIAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Mammal\Giraffe.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Modul2HW4.Models.Mammal.Leopard">
+    <Position X="16.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgABAAIAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Mammal\Leopard.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Modul2HW4.Models.Mammal.Mammals" Collapsed="true">
+    <Position X="15.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAABA=</HashCode>
+      <FileName>Models\Mammal\Mammals.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Modul2HW4.Models.Mammal.Tiger">
+    <Position X="18.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAABAAIAAAAABAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Mammal\Tiger.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="Modul2HW4.Models.Animal_s_Specific.ColorPlumage" Collapsed="true">
+    <Position X="21.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAABAAAAAIAAAAAAAAAAABAAAAAAAAAAAABAAAAA=</HashCode>
+      <FileName>Models\Animal's Specific\ColorPlumage.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Modul2HW4.Models.Animal_s_Specific.TypeOfAnimal" Collapsed="true">
+    <Position X="23" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAEAAA=</HashCode>
+      <FileName>Models\Animal's Specific\TypeOfAnimal.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Modul2HW4.Models.Animal_s_Specific.TypeOfPalate" Collapsed="true">
+    <Position X="21.25" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAQAAAgAAAAAAAACAAAAAAgAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Animal's Specific\TypeOfPalate.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Modul2HW4.Models.Animal_s_Specific.WayOfLife" Collapsed="true">
+    <Position X="23" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAABAAQAAAIAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Animal's Specific\WayOfLife.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

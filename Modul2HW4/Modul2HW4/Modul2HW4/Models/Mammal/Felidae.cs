@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Modul2HW4.Models
+namespace Modul2HW4.Models.Mammal
 {
     // кошачьи
     public abstract class Felidae : Mammals
