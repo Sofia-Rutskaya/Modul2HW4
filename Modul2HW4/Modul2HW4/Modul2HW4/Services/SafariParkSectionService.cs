@@ -7,6 +7,7 @@ using Modul2HW4.Providers;
 using Modul2HW4.Services.Abstractions;
 using Modul2HW4.Providers.Abstractions;
 using Modul2HW4.Models;
+using Modul2HW4.Models.Mammal;
 using Modul2HW4.Models.Animal_s_Specific;
 
 namespace Modul2HW4.Services
@@ -23,10 +24,6 @@ namespace Modul2HW4.Services
         ChordatesAnimals[] ISafariParkSectionService.GetAnimal()
         {
             return _safariParkProvider.GetAnimals();
-        }
-
-        void ISafariParkSectionService.FindAnimal(string name, TypeOfAnimal type, double weight)
-        {
         }
     }
 }

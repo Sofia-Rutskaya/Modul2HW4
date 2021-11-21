@@ -10,5 +10,6 @@ namespace Modul2HW4.Services.Abstractions
     {
         public void InfoAboutSafariPark();
         public void Sort();
+        public void FindAnimal();
     }
 }

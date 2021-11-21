@@ -7,6 +7,7 @@ using Modul2HW4.Models;
 using Modul2HW4.Models.Mammal;
 using Modul2HW4.Models.Bird;
 using Modul2HW4.Providers.Abstractions;
+using Modul2HW4.Extension;
 
 namespace Modul2HW4.Providers
 {

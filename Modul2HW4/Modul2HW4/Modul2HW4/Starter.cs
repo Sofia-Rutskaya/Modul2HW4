@@ -5,12 +5,13 @@ using System.Text;
 using System.Threading.Tasks;
 using Modul2HW4.Services.Abstractions;
 using Modul2HW4.Services;
+using Modul2HW4.Models;
 
 namespace Modul2HW4
 {
     public class Starter
     {
-        private IUIService _iuIService;
+        private readonly IUIService _iuIService;
 
         public Starter(IUIService uIService)
         {
@@ -21,6 +22,7 @@ namespace Modul2HW4
         {
             _iuIService.InfoAboutSafariPark();
             _iuIService.Sort();
+            _iuIService.FindAnimal();
         }
     }
 }

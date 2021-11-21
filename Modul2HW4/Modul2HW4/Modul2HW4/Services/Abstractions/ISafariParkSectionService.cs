@@ -11,6 +11,5 @@ namespace Modul2HW4.Services.Abstractions
     public interface ISafariParkSectionService
     {
         public ChordatesAnimals[] GetAnimal();
-        public void FindAnimal(string name, TypeOfAnimal type, double weight);
     }
 }

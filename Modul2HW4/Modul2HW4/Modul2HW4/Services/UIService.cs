@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Modul2HW4.Services.Abstractions;
+using Modul2HW4.Extension;
 
 namespace Modul2HW4.Services
 {
@@ -36,6 +37,18 @@ namespace Modul2HW4.Services
             _message.Append("Array sorted");
             _message.Append('-', 10);
             Console.WriteLine(_message);
+        }
+
+        void IUIService.FindAnimal()
+        {
+            if (_sectionService.GetAnimal().FindAnimal("Tiger Aska", Models.Animal_s_Specific.TypeOfAnimal.Tiger, 300) == false)
+            {
+                Console.WriteLine("Animal doesn't exist in Safari Park!");
+            }
+            else if (_sectionService.GetAnimal().FindAnimal("Tiger Aska", Models.Animal_s_Specific.TypeOfAnimal.Tiger, 300) == true)
+            {
+                Console.WriteLine("The animal is in the Safari Park!");
+            }
         }
     }
 }
