@@ -4,32 +4,29 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Modul2HW4.Providers;
+using Modul2HW4.Services.Abstractions;
+using Modul2HW4.Providers.Abstractions;
 using Modul2HW4.Models;
 using Modul2HW4.Models.Animal_s_Specific;
 
 namespace Modul2HW4.Services
 {
-    public class SafariParkSectionService
+    public class SafariParkSectionService : ISafariParkSectionService
     {
-        private readonly SafariParkProvider _safariParkProvider;
+        private readonly ISafariParkProvider _safariParkProvider;
 
-        public SafariParkSectionService()
+        public SafariParkSectionService(ISafariParkProvider safariParkProvider)
         {
-            _safariParkProvider = new SafariParkProvider();
+            _safariParkProvider = safariParkProvider;
         }
 
-        public ChordatesAnimals[] GetAnimal()
+        ChordatesAnimals[] ISafariParkSectionService.GetAnimal()
         {
             return _safariParkProvider.GetAnimals();
         }
 
-        public void FindAnimal(string name, TypeOfAnimal type, double weight)
+        void ISafariParkSectionService.FindAnimal(string name, TypeOfAnimal type, double weight)
         {
-        }
-
-        public void Sort()
-        {
-            Array.Sort(GetAnimal(), new SortAnimalService());
         }
     }
 }

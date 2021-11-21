@@ -6,10 +6,11 @@ using System.Threading.Tasks;
 using Modul2HW4.Models;
 using Modul2HW4.Models.Mammal;
 using Modul2HW4.Models.Bird;
+using Modul2HW4.Providers.Abstractions;
 
 namespace Modul2HW4.Providers
 {
-    public class SafariParkProvider
+    public class SafariParkProvider : ISafariParkProvider
     {
         private readonly ChordatesAnimals[] _animals;
         public SafariParkProvider()
@@ -80,7 +81,7 @@ namespace Modul2HW4.Providers
             };
         }
 
-        public ChordatesAnimals[] GetAnimals()
+        ChordatesAnimals[] ISafariParkProvider.GetAnimals()
         {
             return _animals;
         }

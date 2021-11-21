@@ -4,17 +4,18 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Modul2HW4.Models;
+using Modul2HW4.Services.Abstractions;
 
 namespace Modul2HW4.Services
 {
     public class SortAnimalService : IComparer<ChordatesAnimals>
     {
         private readonly ChordatesAnimals[] _animals;
-        private readonly SafariParkSectionService _safariParkSectionService;
+        private readonly ISafariParkSectionService _safariParkSectionService;
 
-        public SortAnimalService()
+        public SortAnimalService(ISafariParkSectionService safariParkSectionService)
         {
-            _safariParkSectionService = new SafariParkSectionService();
+            _safariParkSectionService = safariParkSectionService;
             _animals = _safariParkSectionService.GetAnimal();
         }
 

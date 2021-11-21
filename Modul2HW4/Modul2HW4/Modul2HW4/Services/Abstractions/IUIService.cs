@@ -9,5 +9,6 @@ namespace Modul2HW4.Services.Abstractions
     public interface IUIService
     {
         public void InfoAboutSafariPark();
+        public void Sort();
     }
 }
