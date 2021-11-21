@@ -15,6 +15,7 @@ namespace Modul2HW4
         {
             var serviceProvider = new ServiceCollection()
                 .AddTransient<IUIService, UIService>()
+                .AddTransient<ICountSpeciesService, CountSpeciesService>()
                 .BuildServiceProvider();
 
             var start = serviceProvider.GetService<IUIService>();

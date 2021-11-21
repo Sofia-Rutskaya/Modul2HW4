@@ -11,6 +11,10 @@ namespace Modul2HW4.Models.Animal_s_Specific
         Tiger,
         Deer,
         Giraffe,
-        Leopard
+        Leopard,
+        Tinamu,
+        Ostriches,
+        Bucerotiformes,
+        Ciconiiformes
     }
 }
