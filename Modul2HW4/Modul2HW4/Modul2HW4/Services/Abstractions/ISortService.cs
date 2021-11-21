@@ -4,12 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Modul2HW4
+namespace Modul2HW4.Services.Abstractions
 {
-    public class Starter
+    public interface ISortService
     {
-        public void Run()
-        {
-        }
     }
 }

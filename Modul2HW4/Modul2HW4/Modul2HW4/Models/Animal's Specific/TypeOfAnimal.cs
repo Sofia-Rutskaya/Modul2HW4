@@ -9,6 +9,8 @@ namespace Modul2HW4.Models.Animal_s_Specific
     public enum TypeOfAnimal
     {
         Tiger,
-        Zebra
+        Deer,
+        Giraffe,
+        Leopard
     }
 }
